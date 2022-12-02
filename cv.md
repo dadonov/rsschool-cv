@@ -8,7 +8,7 @@ Email: dadonov.igor@gmail.com
 
 Discord: dadonov_igor
 
-GitHub: (@dadonov)
+GitHub: @dadonov
 
 # About me
 
@@ -36,3 +36,10 @@ I am a hardworking and ambitious individual with a great passion for the Front-E
     } return ""
     }
 ```
+
+# Work Experience
+**IMS Technologies LLC**
++ Years of work: 2019-2021
++ Working position: Junior Electrical Engineer
+
+
