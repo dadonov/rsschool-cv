@@ -56,4 +56,8 @@ I am a hardworking and ambitious individual with a great passion for the Front-E
     + Basic Algorithm Scripting
 * **w3schools.com**
     + HTML and CSS Tutorials
-
+# Languages
+* Russian - Native
+* Azerbaijani - Fluent
+* Czech - Upper-intermediate
+* English - Upper-intermediate
