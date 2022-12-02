@@ -21,3 +21,18 @@ I am a hardworking and ambitious individual with a great passion for the Front-E
 
 * Visual Studio Code
 * Git Essentials
+
+# Code Example
+```
+ function search(budget, prices) {
+    let affordableCoffee = [ ];
+
+    if (budget > 0) {
+        for (let i = 0; i < prices.length; i++){
+            if (prices[i] <= budget) {
+                affordableCoffee.push(prices[i])
+            }
+        } return affordableCoffee.sort((a, b) => a - b).toString()
+    } return ""
+    }
+```
