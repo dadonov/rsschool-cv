@@ -14,3 +14,10 @@ GitHub: (@dadonov)
 
 I am a hardworking and ambitious individual with a great passion for the Front-End Development. I am currently in my last year of studying Electrical Engineering at Azerbaijan State Oil and Industry University. I have excellent communication skills, enabling me to effectively communicate with a wide range of people. I am eager to be challenged in order to grow and further improve my IT skills.
 
+# Skills
+* Basic knowledge of HTML and CSS
+
+* JavaScript Essentials
+
+* Visual Studio Code
+* Git Essentials
