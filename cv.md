@@ -41,5 +41,19 @@ I am a hardworking and ambitious individual with a great passion for the Front-E
 **IMS Technologies LLC**
 + Years of work: 2019-2021
 + Working position: Junior Electrical Engineer
+# Education
+**Azerbaijan State Oil and Industry University**
+* Information Technologies and Management Faculty
+* Years of study: 2019 - 2023
 
+* Specialization: Electrical, Radiotechnical and Telecommunications Engineering, Bachelor's Degree
+
+
+# Courses
+* **freecodecamp.org**
+    + Basic JavaScript
+    + Basic Data Structures
+    + Basic Algorithm Scripting
+* **w3schools.com**
+    + HTML and CSS Tutorials
 
