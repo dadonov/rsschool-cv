@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/svg/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab:wght@600&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section" id="profile">
+        <img class="profile-picture" src="/assets/img/avatar.jpeg" alt="avatar" width="404" height="404">
+        <h1>IGOR <b>DADONOV</b></h1>
+        <h2 style="font-size: 22px;">JUNIOR FRONT-END DEVELOPER</h2>
+      </section>
+      <section class="section" id="about-me">
+        <h2 class="section-title">About me</h2>
+        <p>I am a hardworking and ambitious individual with a great passion for the Front-End Development. I am
+          currently in my last year of studying Electrical Engineering at Azerbaijan State Oil and Industry
+          University. I have excellent communication skills, enabling me to effectively communicate with a wide range
+          of people. I am eager to be challenged in order to grow and further improve my IT skills.</p>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li>Location: <a class="link" href=https://en.wikipedia.org/wiki/Baku target=”_blank”>Baku,Azerbaijan</a>
+          </li>
+          <li>Email: <a class="link" href="mailto:dadonov.igor@gmail.com">dadonov.igor@gmail.com</a>
+          </li>
+          <li>Discord: <a class="link" href="https://discordapp.com/users/dadonov.igor#1346"
+              target=”_blank”>dadonov_igor</a></li>
+          <li>Github: <a class="link" href="https://github.com/dadonov" target=”_blank”>@dadonov</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p><b>Azerbaijan State Oil and Industry University</b>
+          <br>Information Technology and Management Faculty
+          <br>Electronics, Radio and Telecommunications Engineering
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>Basic knowledge of HTML and CSS</li>
+          <li>Git Essentials</li>
+
+        </ul>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul>
+          <li><b>freeCodeCamp:</b> JavaScript Algorithms and Data Structures Certification</li>
+          <li><b>w3schools:</b> HTML and CSS Tutorials</li>
+          <li><b>Code Basics:</b> HTML and CSS for Beginners</li>
+          <li><b>Rolling Scopes School:</b> Front-End Development, Stage 0 (In process)</li>
+        </ul>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li>Russian - Native</li>
+          <li>Azerbaijani - Intermediate</li>
+          <li>Czech - Upper-Intermediate</li>
+          <li>English - Proficient <a class="link" href="https://www.efset.org/cert/NUzWmT" target=”_blank”>(EF SET
+              Certificate)</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre><code>function vectorLength(vector){
+          let x = vector[1][0] - vector[0][0];
+          let y = vector[1][1] - vector[0][1];
+          return Math.sqrt(x**2 + y**2)
+        }</code></pre>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <a href="https://github.com/dadonov" target="_blank"><img class="github-logo" src="assets/svg/github_logo.svg"
+          alt="GitHub Logo" width="80" height="80"></a>
+      <p>© 2022</p>
+      <a href="https://rs.school/js/" target="_blank"><img class="rss-logo" src="assets/svg/rsschool_logo.svg"
+          alt="RSS logo" width="146" height="52"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
