@@ -1,0 +1,278 @@
+@import "/css/reset.css";
+$main_color: #8d4b55;
+
+@mixin section_heading {
+  width: 200px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid $main_color;
+  font-weight: 700;
+  font-size: 30px;
+  color: $main_color;
+}
+@mixin section_text {
+  padding-top: 25px;
+  font-size: 20px;
+  line-height: 30px;
+}
+body {
+  font-family: Poppins;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  width: 1240px;
+  margin: 20px auto 20px;
+  background-color: white;
+
+  &_inner {
+    padding: 0 125px;
+  }
+}
+
+.nav {
+  &_list {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &_link {
+    display: block;
+    padding-left: 44px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 300ms ease;
+    color: white;
+
+    &:hover {
+      color: black;
+      transition: 300ms ease;
+    }
+  }
+}
+
+.header {
+  position: relative;
+  height: 215px;
+  padding: 25px 125px;
+  padding-top: 45px;
+  padding-bottom: 0;
+  background-color: $main_color;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 35px;
+
+  &_name {
+    font-weight: 800;
+    font-size: 63px;
+    text-transform: uppercase;
+    color: white;
+  }
+  &_duty {
+    padding-top: 10px;
+    font-size: 30px;
+    color: white;
+  }
+}
+
+.avatar {
+  position: absolute;
+  left: 8em;
+  top: 6em;
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  background-image: url("/assets/avatar.jpeg");
+  background-size: cover;
+}
+
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 125px;
+  color: black;
+}
+.left_column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+.contacts {
+  &_heading {
+    @include section_heading;
+  }
+
+  &_item {
+    @include section_text;
+    display: flex;
+    align-items: center;
+  }
+
+  &_ico {
+    width: 20px;
+    padding-right: 10px;
+  }
+}
+
+.hard_skill {
+  &_heading {
+    @include section_heading;
+  }
+  &_item {
+    @include section_text;
+    display: flex;
+    align-items: center;
+  }
+  &_ico {
+    width: 20px;
+    padding-right: 10px;
+  }
+}
+
+.soft_skill {
+  &_heading {
+    @include section_heading;
+  }
+
+  &_item {
+    @include section_text;
+    list-style: square;
+    list-style-position: inside;
+  }
+}
+
+.education {
+  &_heading {
+    @include section_heading;
+  }
+
+  &_list {
+  }
+
+  &_item {
+    @include section_text;
+    & > p {
+      padding-bottom: 10px;
+    }
+    & .school {
+      font-weight: 700;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.right_column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.about_me {
+  &_heading {
+    @include section_heading;
+  }
+  &_text {
+    @include section_text;
+  }
+}
+
+.projects {
+  &_heading {
+    @include section_heading;
+  }
+
+  &_item {
+    font-size: 20px;
+    &_heading {
+      display: flex;
+      align-items: center;
+      width: 100px;
+      padding-top: 30px;
+      &_name {
+        font-weight: 700;
+      }
+    }
+    &_desc {
+      line-height: 30px;
+    }
+    &_year {
+      font-style: italic;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.link_ico {
+  width: 25px;
+  height: 25px;
+  padding-left: 10px;
+  &:hover {
+    transform: scale(1.1);
+    transition: 300ms ease;
+  }
+}
+
+.languages {
+  &_heading {
+    @include section_heading;
+  }
+  &_list {
+    @include section_text;
+    list-style: square;
+    list-style-position: inside;
+    line-height: 30px;
+    padding-top: 30px;
+  }
+}
+
+.certificates {
+  &_heading {
+    @include section_heading;
+  }
+  &_list {
+    @include section_text;
+    list-style: square;
+    list-style-position: inside;
+    line-height: 30px;
+    padding-top: 30px;
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  margin-top: 50px;
+  background-color: $main_color;
+  &_content {
+    display: flex;
+    flex: 1;
+    padding: 0 125px;
+    justify-content: space-between;
+    align-items: center;
+    .footer_copyright {
+      font-size: 18px;
+    }
+  }
+}
+.footer_ico {
+  width: 100px;
+  length: 50px;
+  transition: 300ms ease;
+
+  &:hover {
+    transform: scale(1.09);
+    transition: 300ms ease;
+  }
+}

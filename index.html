@@ -2,13 +2,184 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:regular,italic,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-</body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                    <li class="nav_item"><a href="#skill" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="avatar"></div>
+            <div class="heading">
+                <h1 class="heading_name">Igor Dadonov</h1>
+                <h2 class="heading_duty">Junior Front-end Developer</h2>
+            </div>
+        </header>
+        <main>
+            <div class="main_container">
+                <div class="left_column">
+                    <div class="contacts" id="contact">
+                        <h2 class="contacts_heading">My contact</h2>
+                        <ul class="contacts_list">
+                            <li class="contacts_item">
+                                <img class="contacts_ico" src="assets/svg/mail.svg" alt="Mail icon">
+                                <a href="mailto:dadonov.igor@gmail.com" class="contacts_link">dadonov.igor@gmail.com</a>
+                            </li>
+                            <li class="contacts_item">
+                                <img class="contacts_ico" src="assets/svg/discord.svg" alt="Discord icon">
+                                <a href="https://discordapp.com/users/dadonov.igor#1346"
+                                    class="contacts_link">dadonov_igor</a>
+                            </li>
+                            <li class="contacts_item">
+                                <img class="contacts_ico" src="assets/svg/globe.svg" alt="Globe icon"><a
+                                    href="https://en.wikipedia.org/wiki/Baku" class="contacts_link">Baku, Azerbaijan</a>
+                            </li>
+                            <li class="contacts_item">
+                                <img class="contacts_ico" src="assets/svg/github.svg" alt="GitHub icon">
+                                <a href="https://github.com/dadonov" class="contacts_link">www.github.com/dadonov</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hard_skill" id="skill">
+                        <h2 class="hard_skill_heading">Hard Skills</h2>
+                        <ul class="hard_skill_list">
+                            <li class="hard_skill_item">
+                                <img src="assets/svg/js.svg" alt="JS icon" class="hard_skill_ico">
+                                JavaScript
+                            </li>
+                            <li class="hard_skill_item">
+                                <img src="assets/svg/html.svg" alt="HTML icon" class="hard_skill_ico">
+                                HTML/CSS
+                            </li>
+                            <li class="hard_skill_item">
+                                <img src="assets/svg/sass.svg" alt="SASS icon" class="hard_skill_ico">
+                                SASS
+                            </li>
+                            <li class="hard_skill_item">
+                                <img src="assets/svg/github.svg" alt="GitHub icon" class="hard_skill_ico">
+                                Git
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="soft_skill">
+                        <h2 class="soft_skill_heading">Soft Skills</h2>
+                        <ul class="soft_skill_list">
+                            <li class="soft_skill_item">Critical thinking</li>
+                            <li class="soft_skill_item">Flexibility & Adaptability</li>
+                            <li class="soft_skill_item">Curiosity</li>
+                            <li class="soft_skill_item">Communication</li>
+                        </ul>
+                    </div>
+                    <div class="languages">
+                        <h2 class="languages_heading">Languages</h2>
+                        <ul class="languages_list">
+                            <li class="languages_list_item">Russian - Native</li>
+                            <li class="languages_list_item">English - Advanced</li>
+                            <li class="languages_list_item">Czech - Upper-intermediate</li>
+                            <li class="languages_list_item">Azerbaijani - Intermediate</li>
+                        </ul>
+                    </div>
+                    <div class="certificates">
+                        <h2 class="certificates_heading">Certificates</h2>
+                        <ul class="certificates_list">
+                            <li class="certificates_list_item">EF SET Certificate <a
+                                    href="https://www.efset.org/cert/NUzWmT" class="link"><img
+                                        src="/assets/svg/link.svg" alt="Link icon" class="link_ico"></a></li>
+                            <li class="certificates_list_item">Rolling Scopes School Pre-school <a
+                                    href="https://app.rs.school/certificate/gof2r7yc" class="link"><img
+                                        src="/assets/svg/link.svg" alt="Link icon" class="link_ico"></a></li>
+                        </ul>
+                    </div>
 
-</html>
+                </div>
+                <div class="right_column">
+                    <div class="about_me">
+                        <h2 class="about_me_heading">About me</h2>
+                        <p class="about_me_text">I am a hardworking and ambitious individual with a great passion for
+                            the Front-End Development. I am
+                            currently in my last year of studying Electrical Engineering at Azerbaijan State Oil and
+                            Industry University. I have excellent communication skills, enabling me to effectively
+                            communicate with a wide range of people. I am eager to be challenged in order to grow and
+                            further improve my IT skills.
+                        </p>
+                    </div>
+                    <div class="education" id="education">
+
+                        <h2 class="education_heading">Education</h2>
+                        <ul class="education_list">
+                            <li class="education_item">
+                                <p class="school">Azerbaijan State <br>Oil and Industry University</p>
+                                <p>Bachelor in Electronics</p>
+                                <p>Completed in 2023</p>
+                            </li>
+                            <li class="education_item">
+                                <p class="school">Rolling Scopes School</p>
+                                <p>Front-end Pre-school</p>
+                                <p>Completed in 2023</p>
+                            </li>
+                            <li class="education_item">
+                                <p class="school">FreeCodeCamp</p>
+                                <p>Algorithms and Data Structures
+                                </p>
+                                <p>Completed in 2022</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="projects" id="projects">
+                        <h2 class="projects_heading">Projects</h2>
+                        <ul class="projects_list">
+                            <li class="projects_item">
+                                <div class="projects_item_heading">
+                                    <p class="projects_item_heading_name">Plants</p><a
+                                        href="https://rolling-scopes-school.github.io/dadonov-JSFEPRESCHOOL2022Q4/plants/"
+                                        class="link"><img src="/assets/svg/link.svg" alt="Link icon"
+                                            class="link_ico"></a>
+                                </div>
+                                <p class="projects_item_year">2023</p>
+                                <p class="projects_item_desc">Landing page of a site that offers its services for
+                                    growing plants in the garden and caring for them</p>
+                            </li>
+                            <li class="projects_item">
+                                <div class="projects_item_heading">
+                                    <p class="projects_item_heading_name">Momentum</p><a
+                                        href="https://rolling-scopes-school.github.io/dadonov-JSFEPRESCHOOL2022Q4/momentum/"
+                                        class="link"><img src="/assets/svg/link.svg" alt="Link icon"
+                                            class="link_ico"></a>
+                                </div>
+                                <p class="projects_item_year">2023</p>
+                                <p class="projects_item_desc">Momentum is an analogue of the Chrome Web Store
+                                    application</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer_content">
+                <a href="https://github.com/dadonov"><img class="footer_ico" src="assets/svg/github_footer.svg"
+                        alt="GitHub icon"></a>
+                <p class="footer_copyright">© 2023</p>
+                <a href="https://rs.school/js/"><img class="footer_ico" src="assets/svg/rsschool_footer.svg"
+                        alt="RSS icon"></a>
+
+            </div>
+        </footer>
+    </div>
+</body>
