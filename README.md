@@ -1,3 +1,4 @@
-https://dadonov.github.io/rsschool-cv/cv
+## CV Project
 
+### Link to deploy: 
 https://dadonov.github.io/rsschool-cv/
